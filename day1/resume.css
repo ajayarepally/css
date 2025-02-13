@@ -1,0 +1,36 @@
+body{
+    background-color:aliceblue;
+    text-shadow: 5px 5px 5px rgb(212, 106, 242);
+    color: rgb(10, 10, 10);
+    font-size: 25px;
+}
+#h1{
+    color:darkslategrey;
+    text-decoration: underline dotted;
+    text-transform: uppercase;
+    text-align: center;
+    background-color:bisque;
+}
+#h2{
+    color: maroon;
+}
+.marquee{
+    color: rgb(1, 39, 1);
+    background-color:cornflowerblue;
+}
+.a{
+    font-style:oblique ;
+    color: rgb(255, 107, 2);
+}
+.go{
+    display: inline;
+    text-align: center;
+    color: blue;
+    background-color: rgb(235, 167, 167);
+    font-weight: bold;
+}
+.p{
+    word-spacing: 10px;
+    line-height: 50px;
+    letter-spacing: 01px;
+}
