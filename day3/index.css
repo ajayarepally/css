@@ -1,0 +1,276 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.body {
+    background-color: whitesmoke;
+    font-family: 'Times New Roman';
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.nav>h1 {
+    color: rgb(1, 74, 74);
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.nav>.nav1 {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a {
+    color: cadetblue;
+    text-decoration: none;
+}
+
+.nav1>.s {
+    background-color: rgb(89, 100, 100);
+    padding: 5px 20px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px grey;
+}
+
+.textA {
+    display: flex;
+    margin: 7% 9%;
+    width: 100%;
+}
+
+.textA>.texta {
+    width: 50%;
+}
+
+.texta>.texta1 {
+    font-size: 3.5em;
+    color: rgb(1, 74, 74);
+}
+
+.texta>.texta2 {
+    font-size: 1.5em;
+    color: rgb(39, 49, 49);
+}
+
+.texta>.texta3 {
+    display: flex;
+    column-gap: 4vw;
+
+}
+
+.texta>.texta3 button {
+    background-color: rgb(44, 70, 71);
+    color: whitesmoke;
+    padding: 5px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px black;
+}
+
+.textA>.img {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.textB {
+    margin: 5px 500px;
+    text-align: center;
+}
+
+.textB>h1 {
+    font-size: 3.5em;
+    font-weight: bold;
+    color: rgb(1, 74, 74);
+}
+
+.textB>p {
+    font-size: 1.5em;
+    color: rgb(39, 49, 49);
+}
+
+.textB>button {
+    background-color: rgb(44, 70, 71);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px black;
+}
+
+.c {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 20%;
+}
+
+.c>.img2 {
+    width: 100%;
+    height: 100%;
+}
+
+.c>.c1 {
+    margin-left: 100px;
+}
+
+.c1>h1 {
+    font-size: 3.5em;
+    font-weight: bold;
+    color: rgb(1, 74, 74);
+}
+
+.c1>p {
+    font-size: 1.5em;
+    color: rgb(39, 49, 49);
+}
+
+.c2 {
+    display: flex;
+    margin-top: 10px;
+}
+
+.c21 {
+    margin-right: 20px;
+}
+
+.c21>h5 {
+    text-transform: uppercase;
+    color: rgb(1, 100, 100);
+}
+
+.c21>p {
+    color: rgb(68, 85, 85);
+}
+
+.c22 {
+    margin-left: 20px;
+}
+
+.c22>h5 {
+    text-transform: uppercase;
+    color: rgb(2, 107, 107);
+}
+
+.c22>p {
+    color: rgb(68, 85, 85);
+}
+
+.d {
+    display: flex;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 20%;
+}
+
+.d>.d1 {
+    margin-right: 300px;
+}
+
+.d1>h1 {
+    font-size: 3.5em;
+    font-weight: bold;
+    color: rgb(1, 74, 74);
+}
+
+.d1>p {
+    font-size: 1.5em;
+    color: rgb(39, 49, 49);
+}
+
+.d>.d2 {
+    margin-left: 100px;
+}
+
+.e {
+    display: flex;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 20%;
+}
+
+.e>.e1 {
+    margin-right: 100px;
+}
+
+.e>.e2 {
+    margin-left: 100px;
+    margin-right: 200px;
+}
+
+.e2>h1 {
+    font-size: 3.5em;
+    font-weight: bold;
+    color: rgb(1, 74, 74);
+}
+
+.e2>p {
+    font-size: 1.5em;
+    color: rgb(39, 49, 49);
+}
+
+.f {
+    display: flex;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 20%;
+}
+
+.f>.f1 {
+    margin-right: 100px;
+}
+
+.f1>h1 {
+    font-size: 3.5em;
+    font-weight: bold;
+    color: rgb(1, 74, 74);
+}
+
+.f1>p {
+    font-size: 1.5em;
+    color: rgb(39, 49, 49);
+}
+
+.f2 {
+    font-size: 1.1em;
+    margin-left: 50px;
+}
+
+#name {
+    padding: 20px 350px 20px 4px;
+    background-color: rgb(214, 211, 212);
+    border: 0px;
+    border-radius: 5px;
+}
+
+#email {
+    padding: 20px 350px 20px 4px;
+    background-color: rgb(214, 211, 212);
+    border: 0px;
+    border-radius: 5px;
+}
+
+#message {
+    padding: 20px 280px 20px 4px;
+    background-color: rgb(214, 211, 212);
+    border: 0px;
+    border-radius: 5px;
+}
+
+#button {
+    font-size: 1em;
+    color: antiquewhite;
+    background-color: cadetblue;
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 0px 0px 10px black;
+}
