@@ -1,0 +1,426 @@
+html{
+    scroll-behavior: smooth;
+}
+#A {
+    background: linear-gradient(to left, #c2e6f9, #0395f6);
+}
+
+#nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15%;
+
+}
+
+#nav>#logo {
+    font-size: 3.5em;
+    font-weight: bold;
+}
+
+#nav>#logo>#page {
+    color: rgb(255, 102, 0);
+}
+
+#nav>#anchor {
+    display: flex;
+    gap: 10%;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#anchor>a {
+    color: rgb(24, 27, 27);
+    text-decoration: none;
+}
+
+#anchor>a:hover {
+    color: rgb(252, 145, 4);
+}
+
+#nav>#btn {
+    display: flex;
+    font-size: 1.5em;
+    color: antiquewhite;
+    align-items: center;
+    margin-left: 17%;
+    background-color: rgb(255, 102, 0);
+    font-weight: bold;
+    padding-left: 1.5%;
+    border-radius: 10px;
+}
+
+#btn:hover {
+    box-shadow: 0px 0px 10px black;
+}
+
+#btn>a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+#info {
+    display: flex;
+    margin-top: 5%;
+    gap: 4%;
+}
+
+#info1 {
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+#info1>p {
+    font-size: 1.5em;
+    color: rgb(51, 51, 51);
+}
+
+#info1>h1 {
+    font-size: 3em;
+}
+
+#info21>#form {
+    border: 0px;
+    padding: 15px 10px;
+    background-color: rgb(96, 142, 144);
+}
+
+#form>input {
+    border: 0px;
+    background-color: rgb(96, 142, 144);
+}
+
+#form>input::placeholder {
+    color: black;
+}
+
+#form>button {
+    border: 0px;
+    background-color: rgb(255, 102, 0);
+    margin-left: 60%;
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: antiquewhite;
+}
+
+#form>button:hover {
+    background-color: rgba(203, 91, 16, 0.871);
+}
+
+#info2>small {
+    color: rgb(51, 51, 51);
+}
+
+#info2>button {
+    background-color: rgb(255, 102, 0);
+    padding: 8px 40px;
+    border-radius: 10px;
+    color: antiquewhite;
+    font-weight: bold;
+    border: none;
+}
+
+#info2>button:hover {
+    background-color: rgba(203, 91, 16, 0.871);
+}
+
+#info3 {
+    display: flex;
+    margin-top: 10%;
+    gap: 5%;
+}
+
+#info3>#info31 {
+    width: 100vw;
+    margin-left: 10%;
+}
+
+#info32 {
+    margin-right: 20%;
+}
+
+#info32>#infospan1 {
+    background-color: rgb(251, 222, 206);
+    border: 1.5px solid rgb(234, 88, 12);
+    border-radius: 7px;
+    padding: 5px 10px;
+    color: rgb(234, 88, 12);
+    font-weight: bold;
+}
+
+#info32>h1 {
+    font-size: 3em;
+}
+
+#info32>p {
+    font-size: 1.2em;
+}
+
+#info32>ul>li {
+    margin-top: 10px;
+    font-size: 1.3em;
+    font-weight: 550;
+}
+
+li::marker {
+    color: rgb(234, 88, 12);
+}
+
+#infospan2 {
+    padding: 10px 40px;
+    border: 1px solid rgb(228, 228, 231);
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#infospan2:hover {
+    background-color: rgb(234, 88, 12);
+    color: antiquewhite;
+}
+
+#services {
+    text-align: center;
+    margin-top: 10%;
+}
+
+#services1>span {
+    background-color: rgb(251, 222, 206);
+    border: 1.5px solid rgb(234, 88, 12);
+    border-radius: 7px;
+    padding: 5px 10px;
+    color: rgb(234, 88, 12);
+    font-weight: bold;
+}
+
+#services1>h1 {
+    font-size: 3em;
+}
+
+#services1>p {
+    font-size: 1.2em;
+}
+
+#services2 {
+    display: flex;
+    gap: 5%;
+    margin: 0% 10% 0% 10%;
+}
+
+#services2>.box1 {
+    border: 1px solid black;
+    display: flex;
+    margin-top: 5%;
+    box-shadow: 0px 10px 10px black;
+}
+
+.box1 {
+    display: flex;
+    gap: 5%;
+}
+
+.box1>.box11>span {
+    display: inline-block;
+    background-color: black;
+    font-size: 2em;
+    margin-left: 20px;
+    margin-top: 23px;
+    border: 1px solid black;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    color: white;
+    border-radius: 7px;
+    text-align: center;
+
+}
+
+.box12>h1 {
+    font-size: 2em;
+}
+
+.box12>p {
+    font-size: 1.2em;
+}
+
+.box12>a {
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+}
+
+#faq {
+    text-align: center;
+    margin-top: 10%;
+}
+
+#faq1>span {
+    background-color: rgb(251, 222, 206);
+    border: 1.5px solid rgb(234, 88, 12);
+    border-radius: 7px;
+    padding: 5px 10px;
+    color: rgb(234, 88, 12);
+    font-weight: bold;
+}
+
+#faq1>h1 {
+    font-size: 3em;
+}
+
+#faq>.details1 {
+    border: 1px solid black;
+    display: inline-block;
+    margin: 5px 0px 5px 0px;
+    padding: 30px 240px;
+
+}
+
+.details1>details>summary {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.details1>details>p {
+    font-size: 1.5em;
+}
+
+#faq>.details2 {
+    border: 1px solid black;
+    display: inline-block;
+    margin: 5px 0px 5px 0px;
+    padding: 30px 75px;
+
+}
+
+.details2>details>summary {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.details2>details>p {
+    font-size: 1.5em;
+}
+
+#faq>.details3 {
+    border: 1px solid black;
+    display: inline-block;
+    margin: 5px 0px 5px 0px;
+    padding: 30px 40px;
+
+}
+
+.details3>details>summary {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.details3>details>p {
+    font-size: 1.5em;
+}
+
+#contact{
+    margin-top: 10%;
+}
+#contact > #contact1{
+    text-align: center;
+}
+
+#contact > #contact1 > span{
+    background-color: rgb(251, 222, 206);
+    border: 1.5px solid rgb(234, 88, 12);
+    border-radius: 7px;
+    padding: 5px 10px;
+    color: rgb(234, 88, 12);
+    font-weight: bold;
+}
+#contact > #contact1 > h1{
+    font-size: 3em;
+}
+#contact > #contact1 > p{
+    font-size: 1.2em;
+    margin: 0px 30%;
+}
+#contactform{
+    margin-top: 5%;
+    border: 1px solid black;
+    margin: 0% 10%;
+    padding-left: 30px;
+}
+#contactform > h1{
+    font-size: 2em;
+}
+#c1{
+    display: flex;
+    gap: 10%;
+}
+.c11 > h4{
+    font-size: 1.2em;
+}
+.c11 > #form{
+    display: flex;
+    justify-content: start;
+    margin-top: 30px;
+    padding-bottom: 6px;
+    width: 100%;
+}
+.c11 > form > input{
+    padding: 10PX 300PX 10px 10px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 5px grey;
+    margin-top: 10px;
+    border: none;
+}
+.c12 > form > input{
+    padding: 10PX 300PX 10px 10px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 5px grey;
+    margin-top: 10px;
+    border: none;
+}
+
+#c2 > input{
+    padding: 10PX 900PX 10px 10px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 5px grey;
+    margin-top: 10px;
+    border: none;
+}
+#c3 > textarea{
+    padding: 10PX 830PX 10px 10px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 5px grey;
+    margin-top: 10px;
+    border: none;
+}
+#contactform > button{
+    border: none;
+    padding: 10px 30px ;
+    border-radius: 7px;
+    background-color:rgb(255, 102, 0);
+    color: white;
+    box-shadow: 0px 0px 10px black;
+    margin-bottom: 3%;
+    font-weight: bold;
+}
+#contactform > button:hover{
+    background-color: grey;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(76, 74, 74);
+    padding: 20px 0;
+    margin-top: 5%;
+}
+.foot-bar{
+    text-align: center;
+}
+.downlogo > h1 > span{
+    font-size: 2em;
+}
+.downlogo > h1{
+    margin: 0;
+    text-shadow: 0px 0px 5px white ;
+    text-decoration:overline underline;
+}
