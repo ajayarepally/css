@@ -1,0 +1,150 @@
+#navbar{
+    display: flex;
+    gap: 15%;
+    align-items: center;
+    margin:0%;
+    background:linear-gradient(to right, lightgrey,darkslategrey
+    );
+    padding: 0%;
+    border-radius: 100px;
+}
+#navbar > h1{
+    font-size: 4em;
+    color:rgb(45,39,35);
+    text-decoration: dotted underline;
+    margin-left: 5%;
+}
+#anchor{
+    display: flex;
+    justify-content: space-around;
+    gap: 8%;
+    align-items: center;
+    font-size: 1em;
+    font-weight: bolder;
+}
+#anchor > img{
+    width: 20%;
+    height: 20%;
+    background-color: azure;
+    border-radius: 50%;
+    padding: 8px;
+}
+#anchor > a{
+    text-decoration: none;
+    color: white;
+
+}
+#anchor > a:hover{
+    color: black;
+}
+#home{
+    display: flex;
+}
+#home1{
+    display: flex;
+    align-items: left;
+}
+#home1 > img{
+    position: relative;
+    left: 30%;
+    top: 15%;
+    z-index: 0;
+    height: 90vh;
+    width: 40vw;
+    border-radius: 20px;
+}
+#home1 > video{
+    position: relative;
+    top: 45%;
+    right: 58%;
+    height: 70vh;
+    width: 25vw;
+    border-radius: 30px;
+    z-index: 1;
+}
+#home2{
+    position: relative;
+    background-color:white;
+    right: 10%;
+    padding: 50px;
+    margin-top: 13%;
+    border-radius: 20px;
+    z-index: 1;
+    
+}
+#home2 >span{
+    font-size: 1.2em;
+    color: rgb(191, 158, 120);
+    font-weight: bold;
+}
+#home2 >h1{
+    font-size: 4em;
+}
+#home2 >p{
+    font-size: 1.2em;
+    color: rgb(152, 130, 105);
+}
+#home2 >ul{
+    font-size: 1.5em;
+    row-gap: 50px;
+}
+li::marker{
+    color: rgb(170, 140, 105);
+    font-size: 25px;
+}
+#middle{
+    display: flex;
+    margin-top: 10%;
+}
+#middle1{
+    background-color: white;
+    position: relative;
+    left: 75px;
+    top: 70px;
+    border-radius: 20px;
+}
+#middle1 > span{
+    font-size: 1.2em;
+    color: rgb(191, 158, 120);
+    font-weight: bold;
+}
+#middle1 > h1{
+    font-size: 3em;
+    text-transform: uppercase;
+}
+#middle1 > p{
+    font-size: 1.2em;
+    color: rgb(152, 130, 105);
+}
+#middle2{
+    display: flex;
+}
+#middle2 > .baby{
+    border-radius: 20px;
+}
+#middle2 > .leaf{
+    height: 70%;
+    width: 15vw;
+    position: relative;
+    right: 10%;
+    top: 7%;
+    border-radius: 20px;
+}
+#beans{
+    margin-top: 12%;
+    display: flex;
+}
+#coffee{
+    transform: scale(-1,1);
+    height: 70%;
+}
+#beans1{
+    text-align: center;
+    position: relative;
+    left: 20%;
+}
+#beans1 > #cup{
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px black;
+}
