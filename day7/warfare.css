@@ -1,0 +1,188 @@
+*{
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+}
+#firstrow{
+    background:linear-gradient(to right,rgb(1,113,249),rgb(137, 197, 246));
+    height: 65vh;
+    padding-top: 0px;
+    border-bottom-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+}
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    margin-left: 5%;
+    gap: 320px;
+    background: linear-gradient(to right,rgb(1,113,249),rgb(137, 197, 246));
+    padding: 20px 50px 15px 50px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+.rightnav{
+    display: flex;
+     gap:50px
+}
+.rightnav>a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 5px 15px;
+}
+.rightnav>a:hover{
+    background-color: rgb(162, 201, 248);
+    border-radius: 10px; 
+}
+.rightnav>#aone{
+    background-color: rgb(162, 201, 248);
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+.rightnav>button{
+    background-color: rgb(238,98,107);
+    color:white;
+    padding: 10px 25px;
+    border-radius: 18px;
+    border: none;
+}
+.modernwarfare{
+    display: inline-block;
+    margin-top: 13%;
+    padding-left: 28%;
+}
+.modernwarfare>h1{
+    font-size: 60px;
+    color: white;
+    text-transform: uppercase;
+}
+.modernwarfare>span{
+    padding-left: 25%;
+    font-size:20px ;
+    color: white;
+}
+.modernwarfare>span>a{
+    text-decoration: none;
+    color: white;
+}
+.secondrow{
+    display: flex;
+    gap:10%;
+    margin-top: 6%;
+    margin: 6% 7% 0 7%;
+}
+.secondrowt>#one>#sone{
+    font-size: 20px;
+    text-decoration: line-through;
+    color: rgb(248, 191, 86);
+}
+.secondrowt>#one>#stwo{
+    font-size: 30px;
+    color: rgb(0,138,248);
+    font-weight: bold;
+}
+.secondrowt>#input{
+    padding: 30px 0px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 5px grey;
+}
+.secondrowt>#input::placeholder{
+    padding-left: 70px;
+}
+.secondrowt>#cart{
+    padding: 20px 40px;
+    border-radius: 30px;
+    background-color: rgb(238,98,107);
+    color: white;
+    font-size:25px ;
+    border: none;
+}
+.secondrowt>#cart:hover{
+    background-color: rgb(0,138,248);
+    box-shadow: 0px 0px 10px grey;
+}
+.des{
+    background-color:rgba(0, 0, 0, 0.045);
+    height: 50vh;
+    margin: 6% 5% 0 5%;
+    border-radius: 20px;
+    padding: 20px;
+}
+.desanchor>a{
+     font-size: 30px;
+     text-decoration: none;
+     color: black;
+}
+.des>p{
+    font-size: 18px;
+}
+.desanchor>#atwo{
+      color:rgb(0,138,248) ;
+}
+.fourthrow{
+    margin: 6% 5% 0 5%;
+}
+.fourthrow1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fourthrow>h4{
+    color: rgb(238,98,107);
+    font-size: 20px;
+}
+.fourthrow1>h2{
+    font-size: 40px;
+}
+.fourthrow1>a{
+      text-decoration: none;
+      background-color: rgb(238,98,107);
+      height: 2vh;
+      border:none;
+      padding: 15px 15px;
+      border-radius: 20px;
+      color: white;
+}
+#cat2{
+    display: flex;
+    gap: 20px;
+    height: 39vh;
+    align-items: center;
+    margin-top: 5%;
+    padding-left: 100px;
+}
+#cat2 > div{
+    border-radius: 20px;
+    color: white;
+    align-items: center;
+    background-color:rgb(1,113,249) ;
+    
+}
+#cat2 > div >a> img{
+    border-radius: 20px;
+}
+#cat2 > div > h3{
+    padding: 0px 0px 0px 80px;
+}
+#footer{
+    margin-top: 15%;
+    background:radial-gradient(ellipse at bottom,rgb(1,113,249),rgb(137, 197, 246));
+    padding: 20px 50px 100px 450px;
+    font-size: 1.2em;
+    color: white;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+}
+#footer > p > a{
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+}
+#footer > p > a:hover{
+    color: lightblue;
+}
