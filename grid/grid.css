@@ -1,0 +1,28 @@
+#div1{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+#div1 > h1{
+    color: maroon;
+    font-size: 3em;
+}
+#div2{
+    box-shadow: 10px 25px 10px grey;
+    text-align: center;
+    background-color: rgb(250, 184, 98);
+    border-radius: 20px;
+    height: 100%;
+    padding: 10px;
+}
+#div2 > a{
+    text-decoration: none;
+    color:maroon;
+    font-size: 1.2em;
+}
+#div2 > a:hover{
+    color:white;
+    background-color: black;
+    border-radius: 20px;
+    padding: 5px;
+}
