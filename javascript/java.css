@@ -1,0 +1,36 @@
+.main{
+    text-align: center;
+    padding: 15rem;
+}
+#btn{
+    padding: 2.5rem 1rem;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 100%;
+
+}
+#btn:hover{
+    background-color:white;
+    color: black;
+}
+
+[title] {
+    position: relative;
+}
+
+[title]:hover::after {
+    content: attr(title);
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding:1px 2px;
+    border-radius: 5px;
+    top:5rem;
+    right:2.8rem;
+    transform: translate(-15%);
+    white-space: nowrap;
+    font-size: 0.5em;
+}
